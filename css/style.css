@@ -1,0 +1,345 @@
+body{
+    font-family:sans-serif ;
+    margin: 0%;
+    padding: 0%;
+
+}
+@media (max-width:995px){
+    .vr{
+        display: none !important;
+    }
+}
+@media (min-width:995px){
+    #asolid{
+        display: none;
+    }
+}
+.nav ul li {
+    list-style-type: none;
+    padding-right: 2vw;
+    padding-bottom: 19vh;
+
+}
+.nav ul{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background: #6464644d;
+    max-height: 100vh;
+}
+.nav ul li a svg {
+    width: auto;
+    height: 5vh;
+    fill: #fff;
+}
+.nav ul li a svg:hover {
+    width: auto;
+    height: 5vh;
+    fill: #00BF63 ;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/purenature.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logotext {
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: #fff;
+    color:#fff;
+    
+}
+.logo {
+    width: auto;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+.logo2 {
+    width: auto;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+.dtltext {
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-right: 15%;
+}
+.a {
+    text-decoration: none;
+    color: #fff;
+    border: #ffffff;
+    background-color: #00BF63;
+    padding: 10px;
+}
+.a:hover {
+    text-decoration: none;
+    color: #008D49;
+    border: 1px solid #00BF63;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.dtltext2 {
+    color: #000000;
+    margin-left: 7%;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+
+.aboutus {
+    width: 100%;
+    height: auto;
+}
+.vr {
+    border-left: 2px solid #8b8b8b8a;
+    border-radius: 3px;
+    height: 45vh;
+    right:55%;
+    position: absolute;
+}
+
+.womanimg img {
+    border-radius: 100%;
+    border: 3px solid #008D49;
+    width: auto;
+    height: 30vh;
+
+
+}
+.manimg img {
+    border-radius: 100%;
+    border: 3px solid #008D49;
+    width: auto;
+    height: 30vh;
+}
+
+.team div {
+    margin-top: 3%;
+}
+.team div label {
+    margin-top: 4%;
+    padding-left: 2%;
+}
+
+@media (max-width:700px){
+    .team {
+    margin-left: 7%;
+    margin-top: 7%;
+    }
+}
+@media (min-width:700px){
+    .team {
+        display: flex;
+        margin-left: 7%;
+        margin-top: 7%;
+    }
+}
+
+@media (min-width:995px){
+    .team {
+        display: flex;
+        position: absolute;
+        right: 20%;
+        left: 50%;
+        top: 100%;
+    }
+    .womanimg {
+        margin-left: 5%;
+    }
+}
+
+.manimg label {
+    margin-top: 2%;
+}
+.dtltext3 {
+    color: #ffffff;
+    margin-left: 7%;
+    margin-top: 7%;
+    margin-right: 15%;
+    position: absolute;
+}
+
+.h1 {
+    margin-left:7%;
+    margin-top: 5vh!important;
+    margin-bottom: 5vh!important;
+}
+#ae {
+    background: #008D49;
+}
+#ae:hover {
+    border: 1px solid #008D49;
+    color: #008D49;
+    background: none;
+}
+.plant {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/flowerdim.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plantimg {
+    position: relative;
+}
+@media (max-width:1275px){
+    .plantimg {
+        display: none;
+    }
+}
+.imgr1, .imgr2 {
+    display: inline;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+.imgr1{
+    right: 28%;
+    position: absolute;
+}
+.imgr2 {
+    position: absolute;
+    right: 4%;
+}
+.imgr1 div img, .imgr2 div img {
+    height: 28vh;
+    width:auto;
+    border-bottom: 10px solid #008D49;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.contact {
+    margin-left: 7%;
+}
+.contact div input{
+    margin-bottom: 15px;
+}
+.contact div input{
+    padding-right: 9vw !important;
+    padding: 1vw ;
+}
+.contact div input, .contact div textarea {
+    border: 1px solid #00BF63;
+    border-bottom: 5px solid #00BF63;
+    border-radius: 7px;
+    padding-left: 1vw;
+}
+.contact div input:focus {
+    outline: none;
+}
+ .contact div textarea:focus {
+    outline: none;
+ }
+.contactsvg {
+    position: absolute;
+    right: 6%;
+    width: auto;
+    height: 60vh;
+    opacity:30% ;
+    transform: translateY(150px);
+}
+.frmbtn{
+    border: none;
+    background: #00BF63;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 10vw;
+    padding-right: 9vw;
+
+}
+.frmbtn:hover {
+    border: 1px solid #00BF63;
+    background: none;
+    color: #00BF63;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 10vw;
+    padding-right: 9vw;
+
+}
+hr.solid {
+    border-top: 3px solid #8b8b8b;
+    margin: 5%;
+
+}
+
+footer {
+
+    background: #008D49;
+    color: #fff;
+}
+footer .uls ul li {
+    list-style-type: none;
+}
+footer .uls{
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+}
+footer .uls ul {
+    display: inline-block;
+    justify-content: space-between;
+}
+footer .uls ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer .ql li a:hover {
+    text-decoration: underline;
+}
+footer .social li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+}
+footer .undftr ul {
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+footer  .social li a {
+    color: #fff;
+}
+footer  .social li a:hover {
+    color: #a3a3a3;
+}
+footer .social{
+    transform: translateX(50vw);
+}
+footer .newsletter li input {
+    border:  none;
+    background: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+    height: 40px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+footer .newsletter li input::placeholder{
+    color:#008D49;
+    padding-left: 10px;
+}
+footer .newsletter li button{
+    color:#fff;
+    background-color: #008D49;
+    border-radius: 50px;
+    height:40px;
+    padding-left: 20px;
+    padding-right: 15px;
+    border: 5px solid #fff;
+    position:absolute ;
+    border-top-left-radius: 0px;  
+    border-bottom-left-radius: 0px;
+}
+
+footer .newsletter li input:focus {
+    outline: none;
+}
